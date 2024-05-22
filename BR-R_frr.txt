@@ -1,0 +1,7 @@
+#!/bin/bash
+echo conf t > tmp.l
+echo router ospf vrf default >> tmp.l
+echo network 172.16.100.1/28 area 0 >> tmp.l
+echo network 5.5.5.0/24 area 0 >> tmp.l
+
+cat tmp.l | vtysh

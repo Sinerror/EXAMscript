@@ -1,0 +1,17 @@
+[Branch_Files]
+path =/share/Branch_Files
+valid users = branch_admin
+read only = no
+browsable = yes
+
+[Network]
+path =/share/Network
+valid users = network_admin
+read only = no
+browsable = yes
+
+[Admin_Files]
+path = /share/Admin_Files
+valid users = admin
+read only = no
+browsable = yes

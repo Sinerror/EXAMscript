@@ -1,0 +1,5 @@
+auto ens19
+iface ens19 inet static
+address 172.16.100.2
+gateway 172.16.100.1
+netmask 255.255.255.240

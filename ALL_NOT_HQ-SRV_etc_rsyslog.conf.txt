@@ -1,0 +1,7 @@
+*.* @192.168.200.3:514
+*.* @@192.168.200.3:514
+$ActionQueueFileName queue
+$ActionQueueMaxDiskSpace 2g
+$ActionQueueSaveOnShutdown on
+$ActionQueueType LinkedList
+$ActionResumeRetryCount -1

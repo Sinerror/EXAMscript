@@ -1,0 +1,24 @@
+zone “255.in-addr.arpa” {
+	type master;
+	file “/etc/bind/db.255”;
+};
+zone “hq.work” {
+	type master;
+	file “/etc/bind/db.hq.work”;
+};
+zone “branch.work” {
+	type master;
+	file “/etc/bind/db.branch.work”;
+};
+zone “4.4.4.in-addr.arpa” {
+	type master;
+	file “/etc/bind/db.4.4.4”;
+};
+zone “5.5.5.in-addr.arpa” {
+	type master;
+	file “/etc/bind/db.5.5.5”;
+};
+zone “200.168.192.in-addr.arpa” {
+	type master;
+	file “/etc/bind/db.200.168.192”;
+};

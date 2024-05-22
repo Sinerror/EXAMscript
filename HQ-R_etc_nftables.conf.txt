@@ -1,0 +1,10 @@
+table ip nat {
+	chain prerouting {
+		type nat hook prerouting priority dstnat; policy accept;
+		iifname “ens20” tcp dport 2222 dnat to 192.168.200.3:22
+	}
+	chain postrouting {
+		type nat hook postrouting priority srcnat; policy accept;
+		#oifname “ens20” masquerade
+	}
+}

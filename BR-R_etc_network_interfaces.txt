@@ -1,0 +1,19 @@
+auto ens19
+iface ens19 inet static
+address 172.16.100.1
+netmask 255.255.255.240
+
+auto ens20
+iface ens20 inet static
+address 5.5.5.100
+gateway 5.5.5.1
+netmask 255.255.255.0
+
+auto gre1
+  iface gre1 inet tunnel
+  address 10.10.10.2
+  netmask 255.255.255.252
+  mode grenan
+  local 5.5.5.100
+  endpoint 4.4.4.100
+  ttl 255

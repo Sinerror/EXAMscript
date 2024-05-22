@@ -1,0 +1,4 @@
+PermitRootLogin yes
+
+Match Address 3.3.3.10
+    DenyUsers *

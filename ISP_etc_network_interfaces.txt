@@ -1,0 +1,14 @@
+auto ens19
+iface ens19 inet static
+address 4.4.4.1
+netmask 255.255.255.0
+
+auto ens20
+iface ens20 inet static
+address 5.5.5.1
+netmask 255.255.255.0
+
+auto ens21
+iface ens21 inet static
+address 3.3.3.1
+netmask 255.255.255.0

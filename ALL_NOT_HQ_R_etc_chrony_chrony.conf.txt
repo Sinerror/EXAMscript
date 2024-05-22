@@ -1,0 +1,9 @@
+server 4.4.4.100
+confdir /etc/chrony/conf.d
+sourcedir /etc/chrony/sources.d
+keyfile /etc/chrony/chrony.keys
+driftfile /var/lib/chrony/chrony.drift
+logdir /var/log/chrony
+maxupdateskew 100.0
+rtcsync
+makestep 1 3
